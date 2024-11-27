@@ -9,6 +9,7 @@ The same constraints builds successfully within Linux x86_64 container.
 Just build fails:
 
 ```bash
+$ source ~/.ghc-wasm/env
 $ wasm32-wasi-cabal build
 Build profile: -w ghc-9.10.1.20241115 -O1
 In order, the following will be built (use -v for more details):
