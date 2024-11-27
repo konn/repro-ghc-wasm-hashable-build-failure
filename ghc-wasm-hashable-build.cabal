@@ -1,0 +1,22 @@
+cabal-version:       2.2
+
+name:                ghc-wasm-hashable-build
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/konn/ghc-wasm-hashable-build#readme
+license:             BSD-3-Clause
+license-file:        LICENSE
+author:              Hiromi ISHII
+maintainer:          konn.jinro_at_gmail.com
+copyright:           2024 (c) Hiromi ISHII
+category:            Web
+build-type:          Simple
+extra-source-files:  README.md
+                     CHANGELOG.md
+
+executable ghc-wasm-hashable-build
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  build-depends:       base >= 4.7 && < 5, hashable
+  
