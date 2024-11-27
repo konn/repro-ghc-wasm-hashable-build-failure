@@ -1,5 +1,11 @@
 # Hashable fails to build with WASM backend on arrach64 darwin
 
+## Background
+
+The same constraints builds successfully within Linux x86_64 container.
+
+## Procedure
+
 Just build fails:
 
 ```bash
